@@ -3,7 +3,7 @@
 	"id": "betterbold",
 	"version": "${version}",
 	"name": "BetterBold",
-	"description": "Fixes bold text offset in HD texture packs.",
+	"description": "Fixes bold text offset in HD fonts.",
 	"authors": [
 		"Kowaman"
 	],
