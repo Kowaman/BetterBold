@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "betterbold",
+	"version": "${version}",
+	"name": "BetterBold",
+	"description": "Fixes bold text offset in HD texture packs.",
+	"authors": [
+		"Kowaman"
+	],
+	"contact": {
+		"homepage": "https://github.com/Kowaman/BetterBold",
+		"sources": "https://github.com/Kowaman/BetterBold"
+	},
+	"license": "MIT",
+	"icon": "assets/betterbold/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.kowaman.BetterBold"
+		],
+		"client": [
+			"io.kowaman.BetterBoldClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "betterbold.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
